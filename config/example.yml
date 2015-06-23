@@ -1,0 +1,13 @@
+listen: :3000
+projects:
+  - token: abc123
+    organization: bradberger
+    repository: gh-issue-collector
+    labels:
+      - unconfirmed
+      - feedback
+      - issue-collector
+    assignee: bradberger
+    state:
+    milestone:
+    origins:

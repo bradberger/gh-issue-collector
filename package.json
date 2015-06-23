@@ -1,0 +1,17 @@
+{
+  "name": "gh-issue-collector",
+  "version": "0.1.0",
+  "description": "A [Golang](//golang.org) powered API for posting issues to GitHub. The idea is to set up a public/semi-public issue collector and post to a issues GitHub project without requiring a GitHub account.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MPL",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-exec": "^2.1.1",
+    "gulp-shell": "^0.4.2",
+    "run-sequence": "^1.1.1"
+  }
+}

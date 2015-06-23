@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+killall -q gh-issue-collector || true && go build && ./gh-issue-collector -config=config/example.yml
